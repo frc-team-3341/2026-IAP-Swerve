@@ -49,26 +49,26 @@ public final class Constants {
     // The EasySwerve module allows installation of the motors either on top or bottom of the module.
     // These constants configure the location of the motors. The default configuration is with both
     // motors on the bottom of the module.
-    public static final boolean kFrontLeftDrivingMotorOnBottom = true;
-    public static final boolean kRearLeftDrivingMotorOnBottom = true;
-    public static final boolean kFrontRightDrivingMotorOnBottom = true;
-    public static final boolean kRearRightDrivingMotorOnBottom = true;
+    public static final boolean kFrontLeftDrivingMotorOnBottom = false;
+    public static final boolean kRearLeftDrivingMotorOnBottom = false;
+    public static final boolean kFrontRightDrivingMotorOnBottom = false;
+    public static final boolean kRearRightDrivingMotorOnBottom = false;
 
-    public static final boolean kFrontLeftTurningMotorOnBottom = true;
-    public static final boolean kRearLeftTurningMotorOnBottom = true;
-    public static final boolean kFrontRightTurningMotorOnBottom = true;
-    public static final boolean kRearRightTurningMotorOnBottom = true;
+    public static final boolean kFrontLeftTurningMotorOnBottom = false;
+    public static final boolean kRearLeftTurningMotorOnBottom = false;
+    public static final boolean kFrontRightTurningMotorOnBottom = false;
+    public static final boolean kRearRightTurningMotorOnBottom = false;
 
     // SPARK MAX CAN IDs
-    public static final int kFrontLeftDrivingCanId = 9;
-    public static final int kRearLeftDrivingCanId = 15;
-    public static final int kFrontRightDrivingCanId = 11;
-    public static final int kRearRightDrivingCanId = 13;
+    public static final int kFrontLeftDrivingCanId = 8;
+    public static final int kRearLeftDrivingCanId = 6;
+    public static final int kFrontRightDrivingCanId = 2;
+    public static final int kRearRightDrivingCanId = 4;
 
-    public static final int kFrontLeftTurningCanId = 8;
-    public static final int kRearLeftTurningCanId = 14;
-    public static final int kFrontRightTurningCanId = 10;
-    public static final int kRearRightTurningCanId = 12;
+    public static final int kFrontLeftTurningCanId = 7;
+    public static final int kRearLeftTurningCanId = 5;
+    public static final int kFrontRightTurningCanId = 1;
+    public static final int kRearRightTurningCanId = 3;
 
     public static final boolean kGyroReversed = false;
   }
